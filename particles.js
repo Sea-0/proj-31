@@ -18,7 +18,7 @@ class Particle{
 			rectMode(CENTER)
 			strokeWeight(4);
 			stroke("black");
-			fill("darkblue");
+			fill(this.color);
 			//draw the ellipse here to display the rubber ball
 			ellipseMode(RADIUS)
             ellipse(0,0,this.r,this.r)
